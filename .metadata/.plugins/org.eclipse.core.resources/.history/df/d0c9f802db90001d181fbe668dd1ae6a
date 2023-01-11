@@ -1,0 +1,5 @@
+package com.pk.product_info.repository;
+
+public interface productRepository {
+
+}

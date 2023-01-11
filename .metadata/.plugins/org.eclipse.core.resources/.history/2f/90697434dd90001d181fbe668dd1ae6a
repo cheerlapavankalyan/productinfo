@@ -1,0 +1,48 @@
+package com.pk.product_info.entity;
+
+public class productDetails {
+	
+	private String product_name;
+	private String productId;
+	private int product_quantity;
+	private int product_price;
+	
+	
+	
+	public productDetails(String product_name, String productId, int product_quantity, int product_price) {
+		super();
+		this.product_name = product_name;
+		this.productId = productId;
+		this.product_quantity = product_quantity;
+		this.product_price = product_price;
+	}
+	public String getProduct_name() {
+		return product_name;
+	}
+	public void setProduct_name(String product_name) {
+		this.product_name = product_name;
+	}
+	public String getProductId() {
+		return productId;
+	}
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
+	public int getProduct_quantity() {
+		return product_quantity;
+	}
+	public void setProduct_quantity(int product_quantity) {
+		this.product_quantity = product_quantity;
+	}
+	public int getProduct_price() {
+		return product_price;
+	}
+	public void setProduct_price(int product_price) {
+		this.product_price = product_price;
+	}
+	@Override
+	public String toString() {
+		return "productDetails [product_name=" + product_name + ", productId=" + productId + ", product_quantity="
+				+ product_quantity + ", product_price=" + product_price + "]";
+	}
+}

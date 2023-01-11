@@ -1,0 +1,5 @@
+package com.pk.product_info.service;
+
+public interface productService {
+
+}

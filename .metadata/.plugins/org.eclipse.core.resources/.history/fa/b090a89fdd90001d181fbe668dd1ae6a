@@ -1,0 +1,15 @@
+package com.pk.product_info.repository;
+import java.util.Optional;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.pk.product_info.entity.productDetails;
+
+
+public interface productRepository extends MongoRepository<productDetails, String>{
+	  
+  Optional<productDetails> findByProductName(String name);
+  
+  
+}
+

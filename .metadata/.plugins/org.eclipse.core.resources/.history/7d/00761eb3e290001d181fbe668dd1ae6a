@@ -1,0 +1,5 @@
+package com.pk.product_info.entity;
+
+public class Product {
+
+}
